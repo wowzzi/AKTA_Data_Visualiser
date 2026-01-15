@@ -113,8 +113,7 @@ def plot_all():
         current_figure.draw_legend()
 
 
-def hello():
-    print("hello")
+
 
 
 
@@ -124,8 +123,8 @@ menu_dict = {
              'Create figure': create_figure_script,
              'quit': quit,
              'show plots': show_plots,
-             'just plot everything (default settings)': plot_all,
-             'print_hello': hello}
+             'just plot everything (default settings)': plot_all
+             }
 }
 
 if __name__ == "__main__":
